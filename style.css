@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+}
