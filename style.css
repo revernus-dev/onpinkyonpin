@@ -4,7 +4,7 @@ body {
     text-align: center;
     padding: 20px;
     
-    /* 배경 이미지를 꽉 채우기 위해 추가된 코드 */
+
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,3 +27,4 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
