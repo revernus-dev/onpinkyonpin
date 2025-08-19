@@ -3,8 +3,15 @@ body {
     background-color: #f0f0f0;
     text-align: center;
     padding: 20px;
+    
+    /* 배경 이미지를 꽉 채우기 위해 추가된 코드 */
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #333;
 }
 
 h1 {
@@ -19,12 +26,4 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-}
-
-.background-image {
-    width: 100%;
-    height: auto;
-    max-width: 800px;
-    display: block;
-    margin: 20px auto;
 }
