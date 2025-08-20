@@ -7,22 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>옹삥굥삥이가 노는 곳</h1>
-    <p>들어오셨다면 출석체크!</p>
-    <button onclick="increaseVisitorCount()">클릭!</button>
-    <p>방문자 수: <span id="visitorCount">0</span></p>
-    <hr>
+    <div class="container">
+        <h1>옹삥굥삥이가 노는 곳</h1>
+        <p>들어오셨다면 출석체크!</p>
+        <button onclick="increaseVisitorCount()">클릭!</button>
+        <p>방문자 수: <span id="visitorCount">0</span></p>
+        <hr>
 
-    <h2>좋아하는 음악</h2>
-    <audio controls autoplay>
-    <source src="music.mp3" type="audio/mpeg">
-    음악 파일을 찾을 수 없습니다.
-</audio>
-    <hr>
+        <h2>좋아하는 음악</h2>
+        <audio controls autoplay>
+            <source src="music.mp3" type="audio/mpeg">
+            음악 파일을 찾을 수 없습니다.
+        </audio>
+        <hr>
 
-    <h2>좋아하는 유튜브 영상</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mqa7y5J1nDU" frameborder="0" allowfullscreen></iframe>
-    <hr>
+        <h2>좋아하는 유튜브 영상</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mqa7y5J1nDU" frameborder="0" allowfullscreen></iframe>
+        <hr>
+
+        <h2>우리의 사진 갤러리</h2>
+        <div class="gallery-controls">
+            <label for="photoUpload" class="upload-button">사진 업로드</label>
+            <input type="file" id="photoUpload" multiple accept="image/*" style="display: none;">
+        </div>
+        <div class="gallery-container" id="photoGallery">
+            </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
